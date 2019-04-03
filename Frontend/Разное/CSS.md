@@ -20,17 +20,17 @@
 
 ![order](files/flexbox/flex_order.png)
 
-![flex-direction](files/flexbox/flex_flex_direction.png)
+![flex-direction](files/flexbox/flex_flex_direction.jpg)
 
-![flex-grow](files/flexbox/flex_flex_grow.png)
+![flex-grow](files/flexbox/flex_flex_grow.jpg)
 
-![flex-wrap](files/flexbox/flex_flex_wrap.png)
+![flex-wrap](files/flexbox/flex_flex_wrap.jpg)
 
-![justify-content](files/flexbox/flex_justify_content.png)
+![justify-content](files/flexbox/flex_justify_content.jpg)
 
-![align-items](files/flexbox/flex_align_items.png)
+![align-items](files/flexbox/flex_align_items.jpg)
 
-![align-content](files/flexbox/flex_align_content.png)
+![align-content](files/flexbox/flex_align_content.jpg)
 
 ![align-self](files/flexbox/flex_align_self.png)
 
