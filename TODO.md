@@ -42,9 +42,6 @@
 - API
     - REST API
     - GraphQL
-- Авторизация
-    - OAuth
-    - JWT
 - БД
     - PostgreSQL
     - Redis
