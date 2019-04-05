@@ -401,3 +401,4 @@ sudo gzip *.sql
 - [Оригинал статьи](https://www.f-notes.info/doku.php?id=linux:linux_command)
 - [Документация](https://www.gnu.org/software/bash/manual/)
 - [Bash Basics](https://gist.github.com/LeCoupa/122b12050f5fb267e75f)
+- [Шпаргалка по командам](https://vk.com/@itcookies-obolochka-bash-shpargalka-dlya-nachinauschih)
