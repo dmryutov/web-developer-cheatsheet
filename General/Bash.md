@@ -333,6 +333,23 @@ touch ~/.ssh/config
 chmod 600 ~/.ssh/config
 ```
 
+### Файлы
+
+```bash
+# Удалить временные файлы macOS
+find . -name '~$*' -type f -delete -print
+find . -name '._*' -type f -delete -print
+find . -name '.DS_*' -type f -delete -print
+
+# Переименовать файлы "*-en.srt" -> "*.srt"
+for f in *-en.srt; do mv "$f" "$(echo "$f" | sed s/-en.srt/.srt/)"; done
+# Переименовать файлы "any_folder/*-en.srt" -> "*.srt"
+for f in */*-en.srt; do mv "$f" "$(echo "$f" | sed s/-en.srt/.srt/)"; done
+
+# Заменить строки в файле
+sed -i '' 's/old_string/new_string/g' 'file.txt'
+```
+
 ### Supervisor
 
 ```bash
