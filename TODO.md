@@ -2,10 +2,6 @@
 
 ## Общее
 
-- Git
-    - Команды
-    - Git Flow
-    - GitHub Flow
 - Структуры данных
 - Алгоритмы
 - Алгоритмическая сложность
@@ -18,16 +14,9 @@
     - SASS
     - LESS
 - JS
-    - ES6 - ES2018
     - Typescript
 - Сборка
     - Webpack
-- Тестирование
-    - Jest
-    - Mocha
-    - Jasmine
-- Server-side rendering
-- WebSocket
 
 
 
@@ -41,16 +30,9 @@
 - API
     - REST API
     - GraphQL
-- БД
-    - PostgreSQL
-    - MongoDB
 - Celery
 - MQ
     - RabbitMQ
-- Логи
-    - ELK
-- Тестирование
-    - Unittest
 
 
 
@@ -74,3 +56,11 @@
 - Мониторинг
     - Graphite
     - Prometheus
+- Логи
+    - ELK
+
+
+
+## Тестирование
+
+- Виды тестов

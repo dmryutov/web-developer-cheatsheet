@@ -300,3 +300,7 @@ this.$emit('incrementBy', 5) // Data sent up to parent
 - [Полезные ссылки](https://translation-gang.github.io/vue-patterns/ru/useful-links/)
 - Курс [Vue JS 2 - The Complete Guide](https://www.udemy.com/vuejs-2-the-complete-guide/) ([бесплатно](https://freecoursesite.com/vue-js-2-the-complete-guide-incl-vue-router-vuex-1/))
 - [Vue.js Cheat Sheet](https://www.vuemastery.com/vue-cheat-sheet/)
+- Тестирование
+	- [Vue Test Utils](https://vue-test-utils.vuejs.org/ru/)
+	- [Vue Testing Handbook](https://lmiller1990.github.io/vue-testing-handbook/)
+	- [Structuring and testing a Vue/Vuex](https://medium.com/@lachlanmiller_52885/structuring-and-testing-a-vue-vuex-app-with-vue-test-utils-80a994b819f)

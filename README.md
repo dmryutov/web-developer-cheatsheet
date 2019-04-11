@@ -1,1 +1,4 @@
-# web-developer-cheatsheet
+# Web Developer Cheat Sheet
+
+Коллекция статей, инструкций, шпаргалок, которые могут пригодиться в веб-разработке.
+
