@@ -9,9 +9,6 @@
 
 ## Frontend
 
-- Препроцессоры
-    - SASS
-    - LESS
 - JS
     - Typescript
 - Сборка
