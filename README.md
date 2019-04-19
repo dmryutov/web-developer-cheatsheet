@@ -44,6 +44,8 @@
 	- [UI фреймворки](Frontend/UI%20фреймворки)
 		- [Bootstrap](Frontend/UI%20фреймворки/Bootstrap.md)
 		- [Vuetify](Frontend/UI%20фреймворки/Vuetify.md)
+- [DevOps](DevOps)
+	- [Что такое DevOps](DevOps/Что%20такое%20DevOps.md)
 - [Design](Design)
 	- [Памятка для web-дизайнера](Design/Памятка%20для%20web-дизайнера.md)
 - [Testing](Testing)
