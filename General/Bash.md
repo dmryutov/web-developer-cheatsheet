@@ -409,6 +409,10 @@ sudo service cron reload
 
 # Архивация каждого файла по маске
 sudo gzip *.sql
+
+# Узнать кто занял порт
+netstat -vanp tcp | grep 8000
+sudo lsof -i tcp:8000
 ```
 
 
