@@ -9,8 +9,7 @@
 
 ## Frontend
 
-- JS
-    - Typescript
+- Typescript
 - Сборка
     - Webpack
 
@@ -24,17 +23,14 @@
 - API
     - REST API
     - GraphQL
+- Языки
+    - Python
 
 
 
 ## DevOps
 
-- Автоматизация
-    - Ansible
-- Deploy в облако
-    - Heroku
-- CI/CD
-    - TravisCI
+- Supervisord
 - Сервер
     - Nginx
     - Реверс прокси (Nginx)
@@ -42,10 +38,3 @@
     - Выравнивание нагрузки (HAProxy, Nginx)
 - Контейнеры
     - Docker
-- Кластеры
-    - Kubernetes
-- Мониторинг
-    - Graphite
-    - Prometheus
-- Логи
-    - ELK
