@@ -31,7 +31,7 @@
 	- [Очереди сообщений](Backend/Очереди%20сообщений)
 		- [RabbitMQ](Backend/Очереди%20сообщений/RabbitMQ.md)
 	- [Языки](Backend/Языки)
-		- [C++](Backend/Языки/C.md)
+		- [C++](Backend/Языки/C%2B%2B.md)
 		- [Go](Backend/Языки/Go.md)
 		- [Python](Backend/Языки/Python.md)
 - [Frontend](Frontend)
