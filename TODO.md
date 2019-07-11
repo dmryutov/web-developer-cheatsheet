@@ -19,15 +19,11 @@
 - Фреймворки
     - Django
     - aioHTTP
-- API
-    - REST API
-    - GraphQL
 
 
 
 ## DevOps
 
-- Supervisord
 - Сервер
     - Nginx
     - Реверс прокси (Nginx)
