@@ -203,6 +203,7 @@ Post: {
 
 - [Документация](https://graphql.org/learn/)
 - [GraphQL API Explorer](https://developer.github.com/early-access/graphql/explorer/)
+- [Что же такое этот GraphQL?](https://habr.com/ru/post/326986/)
 - [GraphQL — новый взгляд на API](https://habr.com/ru/post/343872/)
 - [Основы языка запросов GraphQL и практические примеры с Vue](https://webformyself.com/osnovy-yazyka-zaprosov-graphql-i-prakticheskie-primery-s-vue/)
 - [GraphQL basics and practical examples with Vue](https://medium.com/@lachlanmiller_52885/graphql-basics-and-practical-examples-with-vue-6b649b9685e0)
