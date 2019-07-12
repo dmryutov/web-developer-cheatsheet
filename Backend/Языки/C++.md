@@ -1805,3 +1805,4 @@ Concepts are also provided by the standard library for building more complicated
 ## Полезные ссылки
 
 - [Оригинал статьи](https://github.com/AnthonyCalandra/modern-cpp-features)
+- [Документация](https://ru.cppreference.com/w/)
