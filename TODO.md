@@ -5,21 +5,11 @@
 - Алгоритмы
 
 
-
 ## Frontend
 
 - Typescript
 - Сборка
     - Webpack
-
-
-
-## Backend
-
-- Фреймворки
-    - Django
-    - aioHTTP
-
 
 
 ## DevOps
