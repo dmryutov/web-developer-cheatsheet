@@ -63,7 +63,7 @@
 
 В дистрибутив Django также включены приложения для системы комментариев, синдикации RSS и Atom, "статических страниц" (которыми можно управлять без необходимости писать контроллеры и представления), перенаправления URL и другое.
 
-![Request-Response Cycle](files/django_request_cycle.png)
+![Request-Response Cycle](files/django_request_cycle.jpg)
 
 
 
