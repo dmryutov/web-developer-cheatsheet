@@ -66,6 +66,8 @@
 		- [Sentry](DevOps/Мониторинг/Sentry.md)
 	- [Процессы](DevOps/Процессы)
 		- [Supervisor](DevOps/Процессы/Supervisor.md)
+	- [Сервер](DevOps/Сервер)
+		- [Nginx](DevOps/Сервер/Nginx.md)
 	- [CI/CD](DevOps/CI_CD)
 		- [GitLab CI](DevOps/CI_CD/GitLab%20CI.md)
 		- [Jenkins](DevOps/CI_CD/Jenkins.md)
