@@ -9,9 +9,3 @@
 
 - Сборка
     - Webpack
-
-
-## DevOps
-
-- Контейнеры
-    - Docker
