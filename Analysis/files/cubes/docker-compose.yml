@@ -1,0 +1,25 @@
+version: '2'
+
+volumes:
+  viewer_data: {}
+
+services:
+  cubes:
+    build: cubes/.
+    ports:
+      - 8010:5000
+    volumes:
+      - ./cubes/data:/data
+    restart: always
+    env_file: env
+
+  viewer:
+    build: cubesviewer/.
+    ports:
+      - 8011:8000
+    volumes:
+      - viewer_data:/db
+    restart: always
+    env_file: env
+    depends_on:
+      - cubes

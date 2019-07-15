@@ -1,0 +1,122 @@
+{
+    "cubes": [
+        {
+            "name": "sales",
+            "measures": [
+                {
+                    "name": "gross_sales",
+                    "label": "gross_sales"
+                },
+                {
+                    "name": "units",
+                    "label": "units"
+                }
+            ],
+            "aggregates": [
+                {
+                    "name": "gross_sales_sum",
+                    "function": "sum",
+                    "measure": "gross_sales"
+                },
+                {
+                    "name": "units_sum",
+                    "function": "sum",
+                    "measure": "units"
+                },
+                {
+                    "name": "record_count",
+                    "function": "count"
+                }
+            ],
+            "dimensions": [
+                "stores",
+                "items",
+                "date"
+            ],
+            "joins": [
+                {
+                    "master": "store_id",
+                    "detail": "stores.store_id"
+                },
+                {
+                    "master": "item_id",
+                    "detail": "items.item_id"
+                }
+            ]
+        }
+    ],
+    "dimensions": [
+        {
+            "name": "stores",
+            "label": "Stores",
+            "levels": [
+                {
+                    "name": "store_city",
+                    "label": "City",
+                    "attributes": [
+                        {
+                            "name": "store_city",
+                            "label": "City"
+                        }
+                    ]
+                },
+                {
+                    "name": "store_name",
+                    "label": "Store Name",
+                    "attributes": [
+                        {
+                            "name": "store_id",
+                            "label": "ID"
+                        },
+                        {
+                            "name": "store_name",
+                            "label": "Name"
+                        }
+                    ]
+                }
+            ],
+            "hierarchy": [
+                "store_city",
+                "store_name"
+            ]
+        },
+        {
+            "name": "items",
+            "label": "Items",
+            "levels": [
+                {
+                    "name": "item_group",
+                    "label": "Item Group",
+                    "attributes": [
+                        {
+                            "name": "item_group",
+                            "label": "Group"
+                        }
+                    ]
+                },
+                {
+                    "name": "item_name",
+                    "label": "Item Name",
+                    "attributes": [
+                        {
+                            "name": "item_id",
+                            "label": "ID"
+                        },
+                        {
+                            "name": "item_name",
+                            "label": "Name"
+                        }
+                    ]
+                }
+            ],
+            "hierarchy": [
+                "item_group",
+                "item_name"
+            ]
+        },
+        {
+            "name": "date",
+            "role": "time"
+        }
+    ]
+}

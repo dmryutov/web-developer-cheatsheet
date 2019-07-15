@@ -1,0 +1,2 @@
+CUBES_URL=http://127.0.0.1:8010/
+CUBESVIEWER_BACKEND_URL=http://127.0.0.1:8011/cubesviewer

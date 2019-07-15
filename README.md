@@ -83,3 +83,5 @@
 	- [Памятка для web-дизайнера](Design/Памятка%20для%20web-дизайнера.md)
 - [Testing](Testing)
 	- [Виды тестирования](Testing/Виды%20тестирования.md)
+- [Analysis](Analysis)
+	- [Cubes](Analysis/Cubes.md)
