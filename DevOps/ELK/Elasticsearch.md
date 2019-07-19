@@ -431,3 +431,5 @@ Hello something world
 - [Преобразование SQL в запросы ElasticSearch](https://www.toolsbuzz.com/query-converter)
 - [Установка стека ELK в Ubuntu](https://www.8host.com/blog/ustanovka-steka-elk-v-ubuntu-16-04/)
 - [Шпаргалка по Elasticsearch](https://www.it-rem.ru/shpargalka-elasticsearch-ustanovka-cherez-docker-osnovnye-komandy.html)
+- [Django. Знакомство с ElasticSearch](https://adw0rd.com/2015/12/16/django-elasticsearch/)
+- [Поиск в Django REST Framework с помощью Elasticsearch](https://habr.com/ru/post/327694/)
