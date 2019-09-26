@@ -185,11 +185,11 @@ SELECT customer_id FROM customers;
 
 ```bash
 # Создать дамп
-sudo -u postgres psql -d db1 -f "dir/dump.sql"
+sudo -u postgres pg_dump db1 -n schema1 > "dir/dump.sql"
 # Создать дамп и заархивировать
 sudo -u postgres pg_dump db1 -n schema1 | gzip > "dir/dump.gz"
 # Восстановить из дампа
-pg_dump -U user1 db1 >> "dump.sql"
+sudo -u postgres psql -d db1 -f "dir/dump.sql"
 ```
 
 ### Система
@@ -205,6 +205,35 @@ initdb -D /usr/local/var/postgres
 pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
 psql postgres < dump.all
 rm -rf /usr/local/var/postgres_old
+```
+
+### Прочее
+
+```sql
+# Актуализация значений всех сиквенсов
+SELECT 'SELECT SETVAL(' ||
+	quote_literal(quote_ident(PGT.schemaname) || '.' || quote_ident(S.relname))
+	|| ', COALESCE(MAX('
+	|| quote_ident(C.attname)
+	|| '), 1) ) FROM '
+	|| quote_ident(PGT.schemaname)
+	|| '.'
+	|| quote_ident(T.relname)
+	|| ';'
+FROM
+	pg_class AS S,
+	pg_depend AS D,
+	pg_class AS T,
+	pg_attribute AS C,
+	pg_tables AS PGT
+WHERE
+	S.relkind = 'S'
+	AND S.oid = D.objid
+	AND D.refobjid = T.oid
+	AND D.refobjid = C.attrelid
+	AND D.refobjsubid = C.attnum
+	AND T.relname = PGT.tablename
+ORDER BY S.relname;
 ```
 
 
