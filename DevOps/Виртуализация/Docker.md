@@ -343,5 +343,6 @@ services:
 - [Документация Portainer](https://portainer.readthedocs.io/en/stable/index.html)
 - [Введение в контейнеры, виртуальные машины и Docker](https://moluch.ru/archive/123/33873/)
 - [Изучаем Docker, часть 3: файлы Dockerfile](https://habr.com/ru/company/ruvds/blog/439980/)
+- [Enabling and accessing Docker Engine API](https://medium.com/@sudarakayasindu/enabling-and-accessing-docker-engine-api-on-a-remote-docker-host-on-ubuntu-16-04-2c15f55f5d39)
 - [How To Set Up a Private Docker Registry](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-18-04)
 - [How can I configure my reverse proxy to serve Portainer?](https://portainer.readthedocs.io/en/stable/faq.html#how-can-i-configure-my-reverse-proxy-to-serve-portainer)
